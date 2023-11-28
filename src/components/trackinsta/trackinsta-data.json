@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_trackinsta_trackinsta_data",
+  "info": {
+    "displayName": "trackinsta_data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "followers": {
+      "required": true,
+      "type": "biginteger"
+    },
+    "followings": {
+      "type": "biginteger",
+      "required": true
+    },
+    "isPrivate": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "initial",
+        "continuous"
+      ],
+      "default": "continuous",
+      "required": true
+    },
+    "timestamp": {
+      "type": "string",
+      "required": true
+    },
+    "dp": {
+      "type": "string"
+    }
+  }
+}

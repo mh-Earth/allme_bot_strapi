@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commands",
+  "info": {
+    "singularName": "command",
+    "pluralName": "commands",
+    "displayName": "Commands",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Command": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "UID": {
+      "type": "uid",
+      "targetField": "Command"
+    },
+    "CommandDescription": {
+      "type": "string",
+      "maxLength": 512
+    }
+  }
+}
