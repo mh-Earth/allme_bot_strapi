@@ -19,10 +19,10 @@
     },
     "follower": {
       "required": true,
-      "type": "biginteger"
+      "type": "integer"
     },
     "following": {
-      "type": "biginteger",
+      "type": "integer",
       "required": true
     },
     "isPrivate": {
@@ -30,7 +30,7 @@
       "default": false,
       "required": true
     },
-    "type": {
+    "dType": {
       "type": "enumeration",
       "enum": [
         "initial",
@@ -44,7 +44,7 @@
       "required": true
     },
     "dp": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
