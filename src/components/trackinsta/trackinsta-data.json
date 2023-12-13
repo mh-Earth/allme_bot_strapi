@@ -44,7 +44,7 @@
       "required": true
     },
     "dp": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
